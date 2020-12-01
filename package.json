@@ -23,7 +23,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon app"
+    "start": "node app"
   },
   "author": "",
   "license": "ISC"
