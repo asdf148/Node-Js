@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/join.css">
+    <title>join</title>
+</head>
+<body>
+    <form id="SignUp-form">
+        <fieldset>
+            <legend>회원가입</legend>
+            <img width = "400" src="https://cdn.mos.cms.futurecdn.net/rLh7Dh7EKo8F6zmDtXYp8W.jpg">
+            <div id="join_content">
+                <p>이메일</p>
+                <input type="text" id="email"" placeholder="e-mail">
+                <p>아이디</p>
+                <input type="text" id="nick" placeholder="id">
+                <p>비밀번호</p>
+                <input type="password" id="password" placeholder="password">
+                <p>비밀번호 재확인</p>
+                <input type="password" id="repassword" placeholder="password">
+                <button type="submit">등록</button>
+            </div>
+        </fieldset>
+    </form>
+    <div id="login_button">
+        <button id="login" type="button"><a href="http://localhost:3000/login">로그인</a></button>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./JS/join.js"></script>
+</body>
+</html>

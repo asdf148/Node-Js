@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://i.imgur.com/rtFun3H.jpg');
+}
+#login-form{
+    background-color: rgb(135, 224, 172);
+
+    margin: 200px 30% 0 30%;
+}
+#join_button{
+    text-align: center;
+}
+#login_content{
+    width: fit-content;
+    margin: 10px;
+    float: right;
+}

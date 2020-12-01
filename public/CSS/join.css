@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://i.imgur.com/rtFun3H.jpg');
+}
+#SignUp-form{
+    background-color: powderblue;
+
+    margin: 200px 30% 0 30%;
+}
+#login_button{
+    text-align: center;
+}
+#join_content{
+    width: fit-content;
+    margin: 10px;
+    float: right;
+}

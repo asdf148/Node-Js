@@ -1,0 +1,12 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/49/fc/d5/49fcd543822a7923220c54e3efb146f5.jpg');
+}
+#content_form{
+    background-color: rgb(71, 48, 134);
+}
+#content{
+    margin: 0 30% 0 30%;
+}
+#save_button{
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+body{
+    /* background-image: url('https://i.pinimg.com/originals/e9/5e/b6/e95eb6340edf021622c2f1b40cfa72e7.jpg'); */
+    background-color: turquoise;
+}
+.twit{
+    border-width: 5px;
+    border-style: solid;
+    border-color: orangered;
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px 25% 10px 25%;
+}
+h1{
+    font-size: 100px;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 126, 75);
+    background-color: rgb(255, 190, 106);
+    width: fit-content;
+    margin: auto;
+}
+#logout_button{
+    text-align: right;
+}
+#nick{
+    font-size: 30px;
+}

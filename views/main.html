@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="logout_button">
+        <button id="logout" type="button"><a href="/users/logout">로그아웃</a></button>
+    </div>
+    <h1>Main Page</h1>
+    <div id="nick">{{user.nick}}님 안녕하세요</div>
+    <button type="button"><a href="http://localhost:3000/write">글쓰기</a></button>
+    {% for twit in twits %}
+        <div class="twit"><!-- post 내용 -->
+            <input type="hidden" value="{{twit.User.id}}" class="twit-user-id">
+            <input type="hidden" value="{{twit.id}}" class="twit-id">
+            <div class="twit-author">{{twit.User.nick}}</div>
+            <div class="twit-content">{{twit.content}}</div>
+        </div>
+    {% endfor %}
+</body>
+</html>
