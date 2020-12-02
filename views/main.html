@@ -13,7 +13,7 @@
     </div>
     <h1>Main Page</h1>
     <div id="nick">{{user.nick}}님 안녕하세요</div>
-    <button type="button"><a href="http://localhost:3000/write">글쓰기</a></button>
+    <button type="button"><a href="https://node-js-test-101.herokuapp.com/write">글쓰기</a></button>
     {% for twit in twits %}
         <div class="twit"><!-- post 내용 -->
             <input type="hidden" value="{{twit.User.id}}" class="twit-user-id">
