@@ -19,6 +19,6 @@
     "database": "heroku_c73b3a7fc30a0cd",
     "host": "us-cdbr-east-02.cleardb.com",
     "dialect": "mysql"
-    
+
   }
 }
